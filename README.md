@@ -2,7 +2,7 @@
 
 Experiment design for discovering a 5 GeV meson decaying to two muons.
 
-This repository contains the analysis notebook and the plot generation script used for the PHY241 group project.
+This repository contains the analysis notebook used for the PHY241 group project.
 
 Contributors: Sandrin Hunkeler, Manasi Tiwari, Elisabeth Giryes
 
@@ -29,7 +29,6 @@ From the current notebook:
 ## Repository contents
 
 - `particle_discovery.ipynb` - main analysis notebook
-- `generate_plots.py` - regenerates the figures used in the presentation
 - `data/` - signal and background Monte Carlo samples
 - `plots/` - generated figures
 
@@ -49,12 +48,4 @@ jupyter notebook particle_discovery.ipynb
 - The BDT is trained with a train/test split so the reported efficiencies are not biased by training on the same events.
 - The mass fit uses a Gaussian signal model plus an exponential background model.
 - Discovery significance is estimated with toy experiments and Wilks' theorem.
-
-## Reproducing plots
-
-If you only want to regenerate the figures, run:
-
-```bash
-python generate_plots.py
-```
 
