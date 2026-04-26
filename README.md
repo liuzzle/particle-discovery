@@ -22,9 +22,9 @@ From the current notebook:
 - 7-feature BDT test accuracy: 96.44%
 - Signal efficiency: 0.9774 +/- 0.0021
 - Background efficiency: 0.0487 +/- 0.0031
-- Mean significance for 1 year: 11.26 sigma
+- Mean significance for 1 year: 11.31 sigma
 - Fraction of 1-year toys above 5 sigma: 100.0%
-- Minimum duration for 95% discovery probability: 5.1 months
+- Minimum duration for 95% discovery probability: 5.0 months
 
 ## Repository contents
 
